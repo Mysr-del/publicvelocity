@@ -8,15 +8,11 @@ WORKDIR /app
 
 # Copy Velocity files
 COPY velocity /app/velocity
-COPY server.toml /app/server.toml
-
-# Make sure configs and scripts are executable
-RUN chmod +x /app/server.toml
-RUN chmod +x /app/velocity/velocity.toml
 
 # Copy your startup script
 COPY main.sh /app/main.sh
 RUN chmod +x /app/main.sh
+RUN chmod +x /app/velocity/velocity.toml
 
 # Expose the Velocity port
 EXPOSE 25565
