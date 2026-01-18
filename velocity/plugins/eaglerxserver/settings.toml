@@ -1,6 +1,6 @@
 # Sets the name of this EaglercraftX server that is sent with query responses and
 # used for the default "404 websocket upgrade failure" page
-server_name = "Dunder Mifflin"
+server_name = "SpookSMP"
 # Sets the UUID of this EaglercraftX server to send with query responses, has no
 # official uses outside of server lists
 server_uuid = "5e60a0f0-635c-41c0-b78f-8d9b45b2d9a0"
@@ -234,4 +234,5 @@ webview_message_ratelimit = 120
 	# Default value is true, if the server should print reminders in the chat when a
 	# new plugin update is available.
 	print_chat_messages = true
+
 
