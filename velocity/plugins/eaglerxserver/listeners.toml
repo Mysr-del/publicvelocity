@@ -58,7 +58,7 @@
 	# contents of the listener's MOTD, which is the text displayed along with the
 	# server_icon when players add this server's listener address to their client's
 	# Multiplayer menu server list.
-	server_motd = ["&4&kDunder Mifflin Dunder Mifflin Dunder Mifflin Dunder Mifflin Dunder Mifflin Dunder Mifflin Dunder Mifflin Dunder Mifflin Dunder Mifflin Dunder Mifflin Dunder Mifflin Dunder Mifflin Dunder Mifflin"]
+	server_motd = ["&c&lSpookSMP &b&lSeason 11"]
 	# Default value is true, is this listener should respond to MOTD queries or not
 	allow_motd = true
 	# Default value is true, is this listener should respond to other query types or
@@ -193,3 +193,4 @@
 			limit_lockout = 20
 			# Sets the total number of seconds a "lock out" should last on this limiter.
 			lockout_duration = 300
+
