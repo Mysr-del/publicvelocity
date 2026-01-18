@@ -78,7 +78,7 @@ enable-player-address-logging = true
 # Configure your servers here. Each key represents the server's name, and the value
 # represents the IP address of the server to connect to.
 auth = "127.0.0.1:25566"
-lobby = "IP of server here"
+lobby = "104.238.221.152:30174"
 
 
 # In what order we should try servers when a player logs in or is kicked from a server.
